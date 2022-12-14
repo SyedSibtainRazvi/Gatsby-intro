@@ -18,19 +18,10 @@
   },
   "dependencies": {
     "gatsby": "^5.2.0",
+    "gatsby-plugin-react-i18next": "^3.0.1",
+    "gatsby-source-filesystem": "^5.2.0",
+    "i18next": "^22.4.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.5",
-    "@storybook/addon-actions": "^6.5.14",
-    "@storybook/addon-essentials": "^6.5.14",
-    "@storybook/addon-interactions": "^6.5.14",
-    "@storybook/addon-links": "^6.5.14",
-    "@storybook/builder-webpack5": "^6.5.14",
-    "@storybook/manager-webpack5": "^6.5.14",
-    "@storybook/react": "^6.5.14",
-    "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.3.0"
   }
 }
