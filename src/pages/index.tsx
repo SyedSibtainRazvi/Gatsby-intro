@@ -1,6 +1,7 @@
 import {graphql} from 'gatsby';
 import React from 'react';
 import {Link, Trans, useTranslation} from 'gatsby-plugin-react-i18next';
+import Drawer from '../components/Drawer';
 // import Layout from '../components/layout';
 // import Image from '../components/image';
 // import SEO from '../components/seo';
@@ -9,7 +10,7 @@ const IndexPage = () => {
   const {t} = useTranslation();
   return (
     <>
-      <h1 title={t('Home')} />
+      <h1>{t('Home')} </h1>
       <h1>
         <Trans>Hi people</Trans>
       </h1>
