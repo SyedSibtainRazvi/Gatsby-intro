@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.7",
+    "framer-motion": "^8.1.7",
     "gatsby": "^5.2.0",
     "gatsby-plugin-image": "^3.3.2",
     "gatsby-plugin-react-i18next": "^3.0.1",
