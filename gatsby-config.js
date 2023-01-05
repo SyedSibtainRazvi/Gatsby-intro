@@ -6,12 +6,6 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const strapiConfig = {
-  apiURL: process.env.STRAPI_API_URL,
-  accessToken: process.env.STRAPI_TOKEN,
-  collectionTypes: ["article", "company", "author"],
-  singleTypes: [],
-};
 
 module.exports = {
   siteMetadata: {
